@@ -1,13 +1,24 @@
-# IT Training Course — ТТ ուսուցման դասընթաց — Курс информатики
+# Practical IT Training Course — IT դասընթաց — Курс информатики
 
-Учебный курс из пяти этапов на русском, армянском и английском языках.
+[Русский](docs/ru/index.md) · [Հայերեն](docs/hy/index.md) · [English](docs/en/index.md)
 
-**Этап 1:** компьютерные системы и цифровая грамотность — 8 занятий.
+Five-stage practical course, expandable to more stages.
 
-**Этапы 2–5:** компьютерные сети и безопасность; офисные технологии; Python; разработка ПО и базы данных.
+**Stage 1:** eight complete lessons in each language with theory, questions, exercises, homework, glossary, evaluation and answers at the end.
 
-Материалы, исходные тексты и публикация сайта находятся в процессе развёртывания.
+**Stages 2–5:** reserved for future content.
 
-**Languages:** [Русский](docs/ru/index.md) · [Հայերեն](docs/hy/index.md) · [English](docs/en/index.md)
+## Website
 
-> Материалы предназначены для учебных целей; личные данные заказчиков и документы об оплате не публикуются.
+[GitHub Pages](https://tor3labs.github.io/it-training-course/) (requires enabling GitHub Pages in repository settings).
+
+## Local build
+
+```bash
+python -m pip install -r requirements.txt
+mkdocs serve
+```
+
+Source text on GitHub is a web-oriented edition prepared from the printed handbooks. The original full-fidelity Markdown sources, diagrams and editable PDF/DOCX books remain available in the complete course archive supplied separately.
+
+No personal information, customer documents, or payment information are included.

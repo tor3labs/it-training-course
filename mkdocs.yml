@@ -1,0 +1,17 @@
+site_name: Practical IT Training Course
+site_url: https://tor3labs.github.io/it-training-course/
+site_description: Practical IT training in Russian, Armenian and English
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.instant
+    - content.code.copy
+    - search.highlight
+plugins:
+  - search
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - admonition
